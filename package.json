@@ -1,0 +1,33 @@
+{
+  "name": "ts-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot created with Typescript and TypeOrm",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sami-AlEsh/ts-telegram-bot-boilerplate.git"
+  },
+  "author": "Sami-Alesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sami-AlEsh/ts-telegram-bot-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Sami-AlEsh/ts-telegram-bot-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.21",
+    "node-telegram-bot-api": "^0.63.0"
+  },
+  "devDependencies": {
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "@types/node": "^20.8.2",
+    "@types/node-telegram-bot-api": "^0.61.8"
+  }
+}
